@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Oswald&display=swap");
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  background: linear-gradient(to right, #0c1116, #2d3e4e);
+  overflow-x: hidden;
+}
+
+.main-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 3rem;
+}

@@ -1,0 +1,25 @@
+.search-box {
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+
+  .search {
+    padding: 2rem;
+    width: 50%;
+    font-family: inherit;
+    font-size: 1.6rem;
+    border-radius: 0.5rem;
+
+    &:focus {
+      outline: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .search-box {
+    .search {
+      width: 100%;
+    }
+  }
+}
